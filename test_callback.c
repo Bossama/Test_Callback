@@ -5,8 +5,7 @@
 #include<stdio.h>
 
 /* Add fonction */ 
-
-
+int sum ( int a , int b);
 /* Sub fonction */ 
 
 /* Multiplication fonction */
@@ -30,4 +29,15 @@ int main()
     
     return 0;
 
+}
+
+/**
+  * @brief Sum of two integers function
+  * @param This parameter is an integer
+  * @param This parameter is an integer
+  * @retval This function returns an integer
+  */
+int sum ( int a , int b)
+{
+    return (a+b);
 }
