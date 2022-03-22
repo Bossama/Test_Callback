@@ -4,10 +4,15 @@
 
 #include<stdio.h>
 
-/* substraction fonction */ 
-int substraction (int a, int b);
-
+/* Add fonction */ 
+int sum ( int a , int b);
 /* Sub fonction */ 
+int substraction (int a, int b);
+/* Multiplication fonction */
+int Multiplication(int a, int b)
+{
+	return(a*b);
+}
 
 int process (char *msg, int p1, int p2, int (* p_Callback_funct)(int, int))
 {
@@ -26,6 +31,16 @@ int main()
 
 }
 
+/**
+  * @brief Sum of two integers function
+  * @param This parameter is an integer
+  * @param This parameter is an integer
+  * @retval This function returns an integer
+  */
+int sum ( int a , int b)
+{
+    return (a+b);
+}
 int substraction (int a, int b)
 {
 	return(a+b);
