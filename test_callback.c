@@ -7,7 +7,7 @@
 /* Add fonction */ 
 int sum ( int a , int b);
 /* Sub fonction */ 
-
+int substraction (int a, int b);
 /* Multiplication fonction */
 int Multiplication(int a, int b)
 {
@@ -40,4 +40,8 @@ int main()
 int sum ( int a , int b)
 {
     return (a+b);
+}
+int substraction (int a, int b)
+{
+	return(a+b);
 }
