@@ -4,7 +4,8 @@
 
 #include<stdio.h>
 
-/* Add fonction */ 
+/* substraction fonction */ 
+int substraction (int a, int b);
 
 /* Sub fonction */ 
 
@@ -23,4 +24,9 @@ int main()
     
     return 0;
 
+}
+
+int substraction (int a, int b)
+{
+	return(a+b);
 }
