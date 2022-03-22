@@ -6,7 +6,14 @@
 
 /* Add fonction */ 
 
+
 /* Sub fonction */ 
+
+/* Multiplication fonction */
+int Multiplication(int a, int b)
+{
+	return(a*b);
+}
 
 int process (char *msg, int p1, int p2, int (* p_Callback_funct)(int, int))
 {
