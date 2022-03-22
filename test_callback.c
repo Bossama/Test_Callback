@@ -5,7 +5,7 @@
 #include<stdio.h>
 
 /* Add fonction */ 
-int sum ( int a , intb);
+int sum ( int a , int b);
 /* Sub fonction */ 
 
 int process (char *msg, int p1, int p2, int (* p_Callback_funct)(int, int))
@@ -31,7 +31,7 @@ int main()
   * @param This parameter is an integer
   * @retval This function returns an integer
   */
-int sum ( int a , intb)
+int sum ( int a , int b)
 {
     return (a+b);
 }
