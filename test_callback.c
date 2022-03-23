@@ -45,7 +45,6 @@ int sum ( int a , int b)
 }
 
 int substraction (int a, int b)
-{
 	return(a+b);
 }
 
