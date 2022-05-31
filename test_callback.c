@@ -49,4 +49,10 @@ int substraction (int a, int b)
 	return(a+b);
 }
 
+/* Mariem fonction */
+int Multiplication2(int a, int b)
+{
+	return(a*b);
+}
+
 /*end code*/
